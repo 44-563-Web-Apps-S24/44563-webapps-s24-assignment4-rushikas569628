@@ -7,13 +7,38 @@
     color: black;
     background-color: lightpink;
 }
-.direction.hover{
+.direction:hover{
     background-color: lightblue;
     color:white;
 }
 .chubukov{
-    color: #ff5733;
+    color: #33ff63;
 }
 .lomov{
     color: #6a0572;
+}
+.Natalya{
+    color:brown;
+}
+.Natalya:hover{
+    text-shadow:2px 3px 5px green;
+    border: 2px solid #6A0572;
+}
+.character-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:20px;
+}
+.character-table th, .character-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.character-table th {
+    background-color: #ddd;
+}
+
+.character-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
 }
